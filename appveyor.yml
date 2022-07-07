@@ -15,7 +15,7 @@ install:
   test_script:
     # Output useful info debugging.
     - node --version
-    - npm -version
+    - npm --version
     # run test
     - npm test
 
